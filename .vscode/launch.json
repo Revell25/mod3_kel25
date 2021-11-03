@@ -1,0 +1,39 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "mod3_kel25",
+      "cwd": "mod3_kel25",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "mod3_kel25 (profile mode)",
+      "cwd": "mod3_kel25",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "c:\\mod3_kel25",
+      "environment": [],
+      "program": "c:\\mod3_kel25\\build\\Debug\\outDebug",
+      "internalConsoleOptions": "openOnSessionStart",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "externalConsole": false,
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}
